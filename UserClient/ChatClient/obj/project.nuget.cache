@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "KIa9Y3Kx1/GQzWXEMxgyS9/gwnTlJ2PQUtYjiXkrgnX+3JcpQ+8O1R0GMyrUMW1K5TUg98/hF7auf7V++vOGqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ywim\\OneDrive\\바탕 화면\\영웅\\C#\\SuperSocket 예제\\ChatClient (User)\\ChatClient\\UserClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ywim\\.nuget\\packages\\messagepack\\2.5.140\\messagepack.2.5.140.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\messagepack.annotations\\2.5.140\\messagepack.annotations.2.5.140.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\microsoft.net.stringtools\\17.6.3\\microsoft.net.stringtools.17.6.3.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\oracle.manageddataaccess\\23.4.0\\oracle.manageddataaccess.23.4.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.formats.asn1\\8.0.0\\system.formats.asn1.8.0.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\ywim\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

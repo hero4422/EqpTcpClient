@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ywim\\OneDrive\\바탕 화면\\영웅\\C#\\SuperSocket 예제\\ChatClient (설비)\\ChatClient\\EqpClient.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ywim\\OneDrive\\바탕 화면\\영웅\\C#\\SuperSocket 예제\\ChatClient (설비)\\ChatClient\\EqpClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ywim\\OneDrive\\바탕 화면\\영웅\\C#\\SuperSocket 예제\\ChatClient (설비)\\ChatClient\\EqpClient.csproj",
+        "projectName": "EqpClient",
+        "projectPath": "C:\\Users\\ywim\\OneDrive\\바탕 화면\\영웅\\C#\\SuperSocket 예제\\ChatClient (설비)\\ChatClient\\EqpClient.csproj",
+        "packagesPath": "C:\\Users\\ywim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ywim\\OneDrive\\바탕 화면\\영웅\\C#\\SuperSocket 예제\\ChatClient (설비)\\ChatClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ywim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net4.7.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net4.7.2",
+          "dependencies": {
+            "MessagePack": {
+              "target": "Package",
+              "version": "[2.5.140, )"
+            },
+            "Oracle.ManagedDataAccess": {
+              "target": "Package",
+              "version": "[23.4.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

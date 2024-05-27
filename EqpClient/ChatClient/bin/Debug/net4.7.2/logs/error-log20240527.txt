@@ -1,0 +1,20 @@
+2024-05-27 11:17:39 [FTL] The application failed to start correctly
+System.IO.IOException: 전송 연결 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다에 데이터를 쓸 수 없습니다. ---> System.Net.Sockets.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+   위치: System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   위치: ChatClient.TcpHelper.Send(String message) 파일 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (설비)\ChatClient\TcpHelper.cs:줄 127
+   위치: ChatClient.Form1.btnSend_Click(Object sender, EventArgs e) 파일 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (설비)\ChatClient\Form1.cs:줄 90
+   위치: ChatClient.Form1.txtChat_KeyDown(Object sender, KeyEventArgs e) 파일 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (설비)\ChatClient\Form1.cs:줄 163
+   위치: System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   위치: System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   위치: System.Windows.Forms.Control.WmKeyChar(Message& m)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   위치: System.Windows.Forms.TextBox.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   위치: System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   위치: System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   위치: ChatClient.Program.Main() 파일 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (설비)\ChatClient\Program.cs:줄 36

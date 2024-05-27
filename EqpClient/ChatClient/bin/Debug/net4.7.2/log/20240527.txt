@@ -1,0 +1,38 @@
+2024-05-27 11:07:56 [INF] Starting a Client!!
+2024-05-27 11:08:03 [INF] 서버에 접속 시도 : IP : 192.168.10.230, Port : 32452
+2024-05-27 11:08:23 [INF] Send : Send : 0034ERROR_REQ EQPID=MS01 ERRORCODE=001
+2024-05-27 11:09:36 [INF] Starting a Client!!
+2024-05-27 11:09:38 [INF] 서버에 접속 시도 : IP : 192.168.10.230, Port : 32452
+2024-05-27 11:09:40 [INF] Send : Send : 0034ERROR_REQ EQPID=MS01 ERRORCODE=001
+2024-05-27 11:09:49 [INF] Send : Send : 0034ERROR_REQ EQPID=MS01 ERRORCODE=001
+2024-05-27 11:10:35 [INF] Send : Send : 0034ERROR_REQ EQPID=MS01 ERRORCODE=001
+2024-05-27 11:10:55 [INF] Send : Send : 0034ERROR_REQ EQPID=MS01 ERRORCODE=001
+2024-05-27 11:14:36 [INF] Starting a Client!!
+2024-05-27 11:15:17 [INF] 서버에 접속 시도 : IP : 192.168.10.230, Port : 32452
+2024-05-27 11:15:23 [INF] Send : Send : 0023EQP_INFO_REQ EQPID=MS01
+2024-05-27 11:17:39 [FTL] The application failed to start correctly
+System.IO.IOException: 전송 연결 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다에 데이터를 쓸 수 없습니다. ---> System.Net.Sockets.SocketException: 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+   위치: System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   위치: ChatClient.TcpHelper.Send(String message) 파일 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (설비)\ChatClient\TcpHelper.cs:줄 127
+   위치: ChatClient.Form1.btnSend_Click(Object sender, EventArgs e) 파일 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (설비)\ChatClient\Form1.cs:줄 90
+   위치: ChatClient.Form1.txtChat_KeyDown(Object sender, KeyEventArgs e) 파일 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (설비)\ChatClient\Form1.cs:줄 163
+   위치: System.Windows.Forms.Control.OnKeyDown(KeyEventArgs e)
+   위치: System.Windows.Forms.Control.ProcessKeyEventArgs(Message& m)
+   위치: System.Windows.Forms.Control.WmKeyChar(Message& m)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   위치: System.Windows.Forms.TextBox.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   위치: System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   위치: System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   위치: System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   위치: ChatClient.Program.Main() 파일 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (설비)\ChatClient\Program.cs:줄 36
+2024-05-27 11:17:59 [INF] Starting a Client!!
+2024-05-27 11:18:02 [INF] 서버에 접속 시도 : IP : 192.168.10.230, Port : 32452
+2024-05-27 11:18:07 [INF] Send : Send : 0034ERROR_REQ EQPID=MS01 ERRORCODE=001
+2024-05-27 11:18:07 [INF] Recv : ERROR_REP
+2024-05-27 11:18:35 [INF] Error Reading From Stream : 전송 연결 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다에서 데이터를 읽을 수 없습니다.
+2024-05-27 11:18:37 [INF] 서버 접속 끊기
