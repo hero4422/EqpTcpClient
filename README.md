@@ -5,8 +5,8 @@
   ```plaintext
   ├── EqpClient/   # 설비 측 TCP 클라이언트
   └── UserClient/  # 사용자 측 TCP 클라이언트
+  ```
 
-  ---
   ## 개발 환경
   - Language: C# (.NET Framework 4.7.2)
   - UI: Windows Forms
