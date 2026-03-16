@@ -1,4 +1,4 @@
-﻿
+
 namespace ChatClient
 {
     partial class Form1
@@ -45,11 +45,14 @@ namespace ChatClient
             this.txtChat = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
             this.txtSend = new System.Windows.Forms.TextBox();
+            this.lblSentHeader = new System.Windows.Forms.Label();
+            this.lblRecvHeader = new System.Windows.Forms.Label();
+            this.lblLogHeader = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
+            //
             // listBoxLog
-            // 
+            //
             this.listBoxLog.FormattingEnabled = true;
             this.listBoxLog.ItemHeight = 12;
             this.listBoxLog.Location = new System.Drawing.Point(13, 490);
@@ -57,9 +60,9 @@ namespace ChatClient
             this.listBoxLog.Name = "listBoxLog";
             this.listBoxLog.Size = new System.Drawing.Size(560, 160);
             this.listBoxLog.TabIndex = 0;
-            // 
+            //
             // groupBox1
-            // 
+            //
             this.groupBox1.Controls.Add(this.chUserIP);
             this.groupBox1.Controls.Add(this.chUserPort);
             this.groupBox1.Controls.Add(this.btnDisConn);
@@ -78,9 +81,9 @@ namespace ChatClient
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "클라이언트 설정";
-            // 
+            //
             // chUserIP
-            // 
+            //
             this.chUserIP.AutoSize = true;
             this.chUserIP.Location = new System.Drawing.Point(300, 70);
             this.chUserIP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -89,9 +92,9 @@ namespace ChatClient
             this.chUserIP.TabIndex = 14;
             this.chUserIP.Text = "UserIP 사용";
             this.chUserIP.UseVisualStyleBackColor = true;
-            // 
+            //
             // chUserPort
-            // 
+            //
             this.chUserPort.AutoSize = true;
             this.chUserPort.Location = new System.Drawing.Point(196, 70);
             this.chUserPort.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -100,9 +103,9 @@ namespace ChatClient
             this.chUserPort.TabIndex = 13;
             this.chUserPort.Text = "UserPort 사용";
             this.chUserPort.UseVisualStyleBackColor = true;
-            // 
+            //
             // btnDisConn
-            // 
+            //
             this.btnDisConn.Location = new System.Drawing.Point(475, 50);
             this.btnDisConn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDisConn.Name = "btnDisConn";
@@ -111,9 +114,9 @@ namespace ChatClient
             this.btnDisConn.Text = "접속 끊기";
             this.btnDisConn.UseVisualStyleBackColor = true;
             this.btnDisConn.Click += new System.EventHandler(this.btnDisConn_Click);
-            // 
+            //
             // chLocalHostIP
-            // 
+            //
             this.chLocalHostIP.AutoSize = true;
             this.chLocalHostIP.Location = new System.Drawing.Point(82, 71);
             this.chLocalHostIP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -122,18 +125,18 @@ namespace ChatClient
             this.chLocalHostIP.TabIndex = 5;
             this.chLocalHostIP.Text = "LocalHost 사용";
             this.chLocalHostIP.UseVisualStyleBackColor = true;
-            // 
+            //
             // lblConnectState
-            // 
+            //
             this.lblConnectState.AutoSize = true;
             this.lblConnectState.Location = new System.Drawing.Point(137, 15);
             this.lblConnectState.Name = "lblConnectState";
             this.lblConnectState.Size = new System.Drawing.Size(69, 12);
             this.lblConnectState.TabIndex = 4;
             this.lblConnectState.Text = "서버 상태 : ";
-            // 
+            //
             // btnConnect
-            // 
+            //
             this.btnConnect.Location = new System.Drawing.Point(414, 50);
             this.btnConnect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnConnect.Name = "btnConnect";
@@ -142,89 +145,141 @@ namespace ChatClient
             this.btnConnect.Text = "접속";
             this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
-            // 
+            //
             // txtPort
-            // 
+            //
             this.txtPort.Location = new System.Drawing.Point(285, 48);
             this.txtPort.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(123, 21);
             this.txtPort.TabIndex = 3;
-            // 
+            //
             // txtIP
-            // 
+            //
             this.txtIP.Location = new System.Drawing.Point(82, 48);
             this.txtIP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtIP.Name = "txtIP";
             this.txtIP.Size = new System.Drawing.Size(123, 21);
             this.txtIP.TabIndex = 2;
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(211, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 12);
             this.label2.TabIndex = 1;
             this.label2.Text = "Port 번호 : ";
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "서버 주소 : ";
-            // 
+            //
+            // lblSentHeader
+            //
+            this.lblSentHeader.AutoSize = false;
+            this.lblSentHeader.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblSentHeader.Font = new System.Drawing.Font(this.Font, System.Drawing.FontStyle.Bold);
+            this.lblSentHeader.Location = new System.Drawing.Point(13, 105);
+            this.lblSentHeader.Name = "lblSentHeader";
+            this.lblSentHeader.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.lblSentHeader.Size = new System.Drawing.Size(559, 20);
+            this.lblSentHeader.TabIndex = 30;
+            this.lblSentHeader.Text = "전송 메시지";
+            this.lblSentHeader.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            //
+            // txtSend
+            //
+            this.txtSend.Location = new System.Drawing.Point(13, 127);
+            this.txtSend.Multiline = true;
+            this.txtSend.Name = "txtSend";
+            this.txtSend.Size = new System.Drawing.Size(559, 152);
+            this.txtSend.TabIndex = 20;
+            //
+            // lblRecvHeader
+            //
+            this.lblRecvHeader.AutoSize = false;
+            this.lblRecvHeader.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblRecvHeader.Font = new System.Drawing.Font(this.Font, System.Drawing.FontStyle.Bold);
+            this.lblRecvHeader.Location = new System.Drawing.Point(12, 285);
+            this.lblRecvHeader.Name = "lblRecvHeader";
+            this.lblRecvHeader.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.lblRecvHeader.Size = new System.Drawing.Size(560, 20);
+            this.lblRecvHeader.TabIndex = 31;
+            this.lblRecvHeader.Text = "수신 메시지";
+            this.lblRecvHeader.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            //
             // lstRecv
-            // 
+            //
             this.lstRecv.FormattingEnabled = true;
             this.lstRecv.ItemHeight = 12;
-            this.lstRecv.Location = new System.Drawing.Point(12, 284);
+            this.lstRecv.Location = new System.Drawing.Point(12, 307);
             this.lstRecv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lstRecv.Name = "lstRecv";
-            this.lstRecv.Size = new System.Drawing.Size(560, 172);
+            this.lstRecv.Size = new System.Drawing.Size(560, 152);
             this.lstRecv.TabIndex = 14;
-            // 
+            //
             // txtChat
-            // 
-            this.txtChat.Location = new System.Drawing.Point(13, 460);
+            //
+            this.txtChat.Location = new System.Drawing.Point(13, 465);
             this.txtChat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtChat.Name = "txtChat";
             this.txtChat.Size = new System.Drawing.Size(499, 21);
             this.txtChat.TabIndex = 15;
             this.txtChat.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtChat_KeyDown);
-            // 
+            //
             // btnSend
-            // 
-            this.btnSend.Location = new System.Drawing.Point(517, 463);
+            //
+            this.btnSend.Location = new System.Drawing.Point(517, 464);
             this.btnSend.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(55, 18);
+            this.btnSend.Size = new System.Drawing.Size(55, 22);
             this.btnSend.TabIndex = 16;
             this.btnSend.Text = "전 송";
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
-            // 
-            // txtSend
-            // 
-            this.txtSend.Location = new System.Drawing.Point(13, 105);
-            this.txtSend.Multiline = true;
-            this.txtSend.Name = "txtSend";
-            this.txtSend.Size = new System.Drawing.Size(559, 174);
-            this.txtSend.TabIndex = 20;
-            // 
+            //
+            // lblLogHeader
+            //
+            this.lblLogHeader.AutoSize = false;
+            this.lblLogHeader.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblLogHeader.Font = new System.Drawing.Font(this.Font, System.Drawing.FontStyle.Bold);
+            this.lblLogHeader.Location = new System.Drawing.Point(13, 493);
+            this.lblLogHeader.Name = "lblLogHeader";
+            this.lblLogHeader.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.lblLogHeader.Size = new System.Drawing.Size(560, 20);
+            this.lblLogHeader.TabIndex = 32;
+            this.lblLogHeader.Text = "로그";
+            this.lblLogHeader.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            //
+            // listBoxLog
+            //
+            this.listBoxLog.FormattingEnabled = true;
+            this.listBoxLog.ItemHeight = 12;
+            this.listBoxLog.Location = new System.Drawing.Point(13, 515);
+            this.listBoxLog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listBoxLog.Name = "listBoxLog";
+            this.listBoxLog.Size = new System.Drawing.Size(560, 140);
+            this.listBoxLog.TabIndex = 0;
+            //
             // Form1
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 661);
+            this.ClientSize = new System.Drawing.Size(584, 668);
+            this.Controls.Add(this.lblSentHeader);
             this.Controls.Add(this.txtSend);
+            this.Controls.Add(this.lblRecvHeader);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtChat);
             this.Controls.Add(this.lstRecv);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.lblLogHeader);
             this.Controls.Add(this.listBoxLog);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
@@ -254,6 +309,8 @@ namespace ChatClient
         public System.Windows.Forms.TextBox txtSend;
         private System.Windows.Forms.CheckBox chUserIP;
         private System.Windows.Forms.CheckBox chUserPort;
+        private System.Windows.Forms.Label lblSentHeader;
+        private System.Windows.Forms.Label lblRecvHeader;
+        private System.Windows.Forms.Label lblLogHeader;
     }
 }
-

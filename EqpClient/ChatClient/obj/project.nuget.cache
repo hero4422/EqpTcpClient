@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AqSYfDlNxxn8GKkQftGLdzFV0DHJUml9uaBYKqql5rDCg7foqukf2MXzRnZyLQd2m1mDKnMCNF8E5RFDpIyJrQ==",
+  "dgSpecHash": "CgHTYXwGLpvTFkdi69ohRYXA5vG2/7+ac6bPhBQ2hv4dx3N51lnQhqJ31AHJqE4P/QKLENwlTd/GWSVeAL0rjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ywim\\OneDrive\\바탕 화면\\영웅\\C#\\SuperSocket 예제\\ChatClient (설비)\\ChatClient\\EqpClient.csproj",
+  "projectFilePath": "G:\\01_Acetech\\Git\\EqpClient\\ChatClient\\EqpClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ywim\\.nuget\\packages\\messagepack\\2.5.140\\messagepack.2.5.140.nupkg.sha512",
     "C:\\Users\\ywim\\.nuget\\packages\\messagepack.annotations\\2.5.140\\messagepack.annotations.2.5.140.nupkg.sha512",

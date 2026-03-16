@@ -1,0 +1,78 @@
+git 사용법 
+참고 : https://velog.io/@hyeongjun/Git-Git-Bash-%EC%82%AC%EC%9A%A9
+참고 : https://reakwon.tistory.com/178
+1. git 초기 설정
+git config --global user.name "imyoungwoong"
+git config --global user.email "ywim@iacetech.co.kr"
+
+2. git 초기 설정 확인
+ - git config --list
+
+3. git bash 실행 후 파일 위치 접속 cd
+
+4. git remote add origin [링크]
+ * git Bash 붙여넣기 shift + Insert
+
+5. 브랜치 생성
+ - git branch 브랜치명
+* fatal: Not a valid object name: 'master'. 에러가 뜨면 commit 진행
+ * git commit -m "Initial commit"
+
+6. 브랜치 이동
+ - git checkout 브랜치명
+
+7. 파일 업로드
+ - git add .
+ - git commit -m "메시지"
+ - git push origin 브랜치명
+
+업로드 에러 발생시
+1. git pull origin UserClient
+
+2. git pull origin UserClient --allow-unrelated-histories
+	vi 편집기 빠져나오기 :q
+
+
+Branch 삭제
+git branch -d <로컬 브랜치 이름>
+
+git File 삭제
+# 원격 저장소와 로컬 저장소에 있는 파일을 삭제한다.
+$ git rm [File Name]
+
+# 원격 저장소에 있는 파일을 삭제한다. 로컬 저장소에 있는 파일은 삭제하지 않는다.
+$ git rm --cached [File Name]
+
+# 폴더 하위의 모든 파일 삭제
+$ git rm --cached -r 폴더명/
+
+
+git Pull 안될 때 오류 잡는 법
+ 오류 msg 
+1. fatal: refusing to merge unrelated histories
+  - git pull origin 브런치명 --allow-unrelated-histories
+  - --allow-unrelated-histories 서로 관련 기록이 없는 이질적인 두 프로젝트를 병합할 때 기본적으로 거부하는데, 이것을 허용해 주는 것
+
+
+
+
+
+
+
+
+
+
+
+
+출처: https://inpa.tistory.com/entry/GIT-⚡️-Github에-잘못-올라간-파일-삭제하기 [Inpa Dev 👨‍💻:티스토리]
+
+git ignore 사용하는 이유
+참고 : https://velog.io/@chance_777/gitignore
+
+보안 및 개인정보 보호
+-비밀번호, 인증 토큰, API 키 등과 같이 보안에 민감한 정보가 포함된 파일
+임시 파일 및 로그 파일
+-개발 시스템에서 발생하는 임시 파일이나 로그 파일은 git저장소에 저장할 필요가 없으므로, 이러한 파일들을 무시하여 저장소 관리를 깔끔하게 유지할 수 있음
+혹여나 발생할 수 있는 데이터 충돌로 인한 손실 방지
+내가 작업하는 공간에는 필요하지만 원격 저장소에는 제외하고 싶은 경우
+

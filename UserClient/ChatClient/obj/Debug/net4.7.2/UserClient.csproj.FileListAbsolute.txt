@@ -31,3 +31,36 @@ C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (Us
 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (User)\ChatClient\obj\Debug\net4.7.2\UserClient.csproj.CopyComplete
 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (User)\ChatClient\obj\Debug\net4.7.2\UserClient.exe
 C:\Users\ywim\OneDrive\바탕 화면\영웅\C#\SuperSocket 예제\ChatClient (User)\ChatClient\obj\Debug\net4.7.2\UserClient.pdb
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\UserClient.exe.config
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\UserClient.exe
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\UserClient.pdb
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\MessagePack.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\MessagePack.Annotations.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\Microsoft.Bcl.AsyncInterfaces.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\Microsoft.NET.StringTools.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\Oracle.ManagedDataAccess.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\Serilog.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\Serilog.Sinks.File.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Buffers.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Collections.Immutable.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Diagnostics.DiagnosticSource.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Formats.Asn1.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Memory.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Numerics.Vectors.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Runtime.CompilerServices.Unsafe.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Text.Encodings.Web.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Text.Json.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.Threading.Tasks.Extensions.dll
+G:\01_Acetech\Git\UserClient\ChatClient\bin\Debug\net4.7.2\System.ValueTuple.dll
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.csproj.AssemblyReference.cache
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.exe.config
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.Form1.resources
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.Properties.Resources.resources
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.csproj.GenerateResource.cache
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.GeneratedMSBuildEditorConfig.editorconfig
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.AssemblyInfoInputs.cache
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.AssemblyInfo.cs
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.csproj.CoreCompileInputs.cache
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.csproj.CopyComplete
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.exe
+G:\01_Acetech\Git\UserClient\ChatClient\obj\Debug\net4.7.2\UserClient.pdb
