@@ -2,6 +2,7 @@
   설비(Equipment)와 사용자(User) 간 TCP 소켓 통신을 테스트하기 위한 WinForms 클라이언트 프로젝트입니다.
 
   ## 프로젝트 구조
+  ```plaintext
   ├── EqpClient/   # 설비 측 TCP 클라이언트
   └── UserClient/  # 사용자 측 TCP 클라이언트
 
